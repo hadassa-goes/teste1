@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @zombie.nome %>
+</p>
+
+<p>
+  <strong>Idade:</strong>
+  <%= @zombie.idade %>
+</p>
+
+<p>
+  <strong>Nascimento:</strong>
+  <%= @zombie.nascimento %>
+</p>
+
+<%= link_to 'Edit', edit_zombie_path(@zombie) %> |
+<%= link_to 'Back', zombies_path %>
